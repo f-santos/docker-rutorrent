@@ -8,7 +8,7 @@ _term() {
 
 trap _term SIGTERM
 
-dtach -N /detach_sess/.rtorrent \
+dtach -A /detach_sess/.rtorrent \
 	s6-setuidgid abc /usr/bin/rtorrent \
 		-n -o import=/config/rtorrent/rtorrent.rc &
 
