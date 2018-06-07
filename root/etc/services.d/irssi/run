@@ -8,7 +8,7 @@ _term() {
 
 trap _term SIGTERM
 
-HOME=/config dtach -N /detach_sess/.autodl \
+HOME=/config dtach -A /detach_sess/.autodl \
 	s6-setuidgid abc /usr/bin/irssi --home=/config/.irssi &
 
 wait
