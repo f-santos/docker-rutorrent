@@ -50,6 +50,7 @@ RUN \
 	python3 \
 	rtorrent \
 	mediainfo \
+	screen \
 	sox \
 	tar \
 	unrar \
