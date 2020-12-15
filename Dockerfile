@@ -49,6 +49,7 @@ RUN \
 	procps \
 	python3 \
 	rtorrent \
+	mediainfo \
 	sox \
 	tar \
 	unrar \
