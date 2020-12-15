@@ -1,4 +1,4 @@
-# Docker rutorrent-autodl
+# Docker Rutorrent + AutoDL-Irssi + MediaInfo + Unrar + Screen
 
 Based on linuxserver/rutorrent
 
