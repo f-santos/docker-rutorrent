@@ -12,7 +12,7 @@ docker create --name=rutorrent \
 -e TZ=<timezone> \
 -p 80:80 -p 5000:5000 \
 -p 51413:51413 -p 6881:6881/udp \
-horjulf/rutorrent-autodl
+alazare619/rutorrent-autodlirssi:latest
 ```
 
 ## Parameters
