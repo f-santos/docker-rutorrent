@@ -49,6 +49,7 @@ RUN \
 	php7-zip \
 	procps \
 	python3 \
+	py3-pip \
 	rtorrent \
 	sox \
 	tar \
@@ -59,7 +60,7 @@ RUN \
 	zip \
 	zlib && \
  echo "**** setup python pip dependencies ****" && \
- python3 -m pip install --no-cache-dir -U \
+ pip install --no-cache-dir -U \
 	cloudscraper \
 	pip \
 	requests \
