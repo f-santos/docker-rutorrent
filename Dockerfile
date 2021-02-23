@@ -1,4 +1,4 @@
-FROM lsiobase/nginx:3.11
+FROM lsiobase/nginx:3.13
 
 LABEL maintainer="horjulf"
 
@@ -34,6 +34,7 @@ RUN \
 	perl-archive-zip \
 	perl-digest-sha1 \
 	perl-html-parser \
+	php7-ctype \
 	perl-json \
 	perl-json-xs \
 	perl-net-ssleay \
