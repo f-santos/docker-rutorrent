@@ -12,6 +12,7 @@ RUN \
 	g++ \
 	libffi-dev \
 	make \
+	patch \
 	musl \
 	openssl-dev \
 	python3-dev && \
